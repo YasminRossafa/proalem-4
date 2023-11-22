@@ -19,7 +19,7 @@ class Menu extends SimpleScene {
   }
 
   update() {
-if (this.myButton.wasClicked()) {
+  if (this.myButton.wasClicked()) {
    this.scene.start("Scene1");
   }
   }
